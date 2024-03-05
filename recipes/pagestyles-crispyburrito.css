@@ -1,0 +1,23 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.main-header,
+.sub-header{
+    background-color: rgb(211, 121, 57);
+    color: white;
+}
+
+.main-header{
+    font-size: 45px;
+}
+
+.sub-header{
+    font-size: 24px;
+}
+
+.recipe-description,
+.recipe-ingredient-list li,
+.recipe-step-list li{
+    font-size: 15px;
+}
