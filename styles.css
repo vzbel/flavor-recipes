@@ -12,20 +12,23 @@ body{
     max-width: 1000px;
     margin: 20px auto;
     padding: 30px;
+    background: gainsboro;
 }
 
 .header{
-
+    padding: 10px;
+    background-color: antiquewhite;
 }
+
 
 .recipe-link{
     font-size: 35px;
     display: block;
     margin-bottom: 15px;
-    text-decoration: none;
     color: black;
     font-weight: 600;
     color: white;
+    text-decoration: none;
 }
 
 .featured-recipe{
@@ -36,6 +39,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(76, 60, 60);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .featured-recipe-info{
     max-height: 400px;
@@ -46,11 +51,66 @@ body{
 }
 
 .featured-recipe-img{
+    min-height: 300px;
     max-width: 60%; 
     margin-left: 10px;
+    object-fit: cover;
+}
+
+.recipes-container{
+    display: flex;
+    margin: auto;
 }
 
 .recipe-card{
-    max-width: 500px;
+    min-width: 400px;
+    max-width: 650px;
+    background-color: grey;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.recipe-info p{
+    color: greenyellow;
+}
+
+.recipe-info{
+    padding: 10px;
+}
+
+.quick-highlight{
+    background-color: rgb(243, 125, 125);
+}
+.recipe-img{ 
+    min-height: 350px;
+    max-width: 50%;
+    width: 270px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.recipe-card-small-column{
+    background-color: rgb(60, 55, 55);
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.recipe-card-small-column p{
+    color: greenyellow;
+}
+
+.recipe-img-small{
+    min-height: 350px;
+    max-width: 100%;
+    width: 350px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
